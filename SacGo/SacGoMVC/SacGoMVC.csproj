@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>aspnet-SacGoMVC-367AE970-4EA2-4696-9A74-BAC06A57B334</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="NewFolder\**" />
+    <Content Remove="NewFolder\**" />
+    <EmbeddedResource Remove="NewFolder\**" />
+    <None Remove="NewFolder\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="3.1.20" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.20" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="3.1.20" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.20" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.20" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="NewFolder1\" />
+    <Folder Include="wwwroot\NewFolder\" />
+  </ItemGroup>
+
+</Project>
