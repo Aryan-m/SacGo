@@ -90,3 +90,8 @@ body.app-body {
 main.view-content-in-layout {
     background-color: #ffffffde;
 }
+
+body, button, input, select, textarea, h1, h2, h3, h4, h5, h6 {
+    font-size: 14px;
+    font-family: monospace;
+}
